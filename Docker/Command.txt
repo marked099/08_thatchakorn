@@ -7,14 +7,14 @@ docker run busybox ping google.com
 docker run stop image
 docker pull busybox
 docker create busybox ping google.com
-docker start image
-docker stop image
+docker start 558a0bdf85b9
+docker stop 558a0bdf85b9
 docker system prune *** เอาไว้ลบcontainer y ลบหมด
 docker run nginx
-docker exec id container ls
-docker exec -it id container sh
-docker exec -it id container bash
-docker rm id container
+docker exec f3bc94f5c5e0 ls
+docker exec -it f3bc94f5c5e0 sh
+docker exec -it f3bc94f5c5e0 bash
+docker rm f3bc94f5c5e0
 docker run -p 80:80
 docker run -p 8800:80
 docker ps
