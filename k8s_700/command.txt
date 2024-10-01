@@ -1,0 +1,10 @@
+kubectl get all ดูทรัพยากรทั้งหมด
+kubectl get pods เรียก pod ออกมาดู
+kubectl apply -f myfile.yml ใช้งานไฟล์ myfile = ชื่อไฟล์ .\sa,ple-pod.yml
+kubectl get services ดูรายการ services ทั้งหมดใน cluster
+kubectl delete pod mypod mypod = ชื่อ pod/name
+kubectl delete service myservices
+kubectl logs mypod
+kubectl delete all --all ลบทุกอย่าง
+kubectl delete deployments ชื่อของ deployment
+kubectl apply -f . รันทุกตัว
